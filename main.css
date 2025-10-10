@@ -262,3 +262,104 @@ form br + br + br::before {
     margin-bottom: 0.5rem;
     font-size: 1rem;
 }
+
+/*ТОвары*/
+.tov {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.tovary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.tovar {
+    background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.tovar:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border-color: #c0a878;
+}
+
+.tovar h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    min-height: 3.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+}
+
+.tovar img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border: 2px solid #f0f0f0;
+    transition: border-color 0.3s ease;
+}
+
+.tovar:hover img {
+    border-color: #c0a878;
+}
+
+.tovar p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #27ae60;
+    margin: 1rem 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.buy-btn {
+    background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+}
+
+.buy-btn:hover {
+    background: linear-gradient(135deg, #219653 0%, #27ae60 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(39, 174, 96, 0.4);
+}
+
+.buy-btn:active {
+    transform: translateY(0);
+}
+
+.buy-btn a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px 15px;
+}
+
+.buy-btn a:hover {
+    color: white;
+    text-decoration: none;
+}
