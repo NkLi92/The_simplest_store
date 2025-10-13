@@ -366,117 +366,117 @@ form br + br + br::before {
 
 /*Профиль*/
 .Profil {
-    font-family: 'Georgia', 'Times New Roman', serif;
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-    color: white;
-    padding: 3rem 2rem;
-    border-radius: 20px;
-    margin: 2rem auto;
-    max-width: 900px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    position: relative;
-    overflow: hidden;
-}
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: linear-gradient(135deg, #2d1b69 0%, #1f3c6e 50%, #1a5f7a 100%);
+            color: white;
+            padding: 3rem 2rem;
+            border-radius: 20px;
+            margin: 2rem auto;
+            max-width: 900px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
 
-.Profil::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, #ffd700, #ffed4e, #ffd700);
-}
+        .Profil::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #00d4ff, #6a5af9, #00d4ff);
+        }
 
-.Profil button {
-    background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
-    color: #1a1a2e;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 25px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
-    text-decoration: none;
-    display: inline-block;
-}
+        .Profil button {
+            background: linear-gradient(135deg, #00d4ff 0%, #6a5af9 100%);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 212, 255, 0.4);
+            text-decoration: none;
+            display: inline-block;
+        }
 
-.Profil button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.5);
-    background: linear-gradient(135deg, #ffed4e 0%, #ffd700 100%);
-}
+        .Profil button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(106, 90, 249, 0.6);
+            background: linear-gradient(135deg, #6a5af9 0%, #00d4ff 100%);
+        }
 
-.Profil button a {
-    color: #1a1a2e;
-    text-decoration: none;
-    font-weight: bold;
-}
+        .Profil button a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-.Profil button a:hover {
-    text-decoration: none;
-}
+        .Profil button a:hover {
+            text-decoration: none;
+        }
 
-.Profil h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #ffd700;
-    text-align: center;
-    margin: 1rem 0 2rem 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    position: relative;
-}
+        .Profil h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #00d4ff;
+            text-align: center;
+            margin: 1rem 0 2rem 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
 
-.Profil h1::after {
-    position: absolute;
-    top: -10px;
-    right: 10px;
-    font-size: 2rem;
-}
+        .Profil h1::after {
+            position: absolute;
+            top: -10px;
+            right: 10px;
+            font-size: 2rem;
+        }
 
-.Profil img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    border: 4px solid #ffd700;
-    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
-    display: block;
-    margin: 0 auto 2rem auto;
-    object-fit: cover;
-}
+        .Profil img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 4px solid #00d4ff;
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+            display: block;
+            margin: 0 auto 2rem auto;
+            object-fit: cover;
+        }
 
-.Profil > br + br + br {
-    display: block;
-    content: "";
-    margin-bottom: 1rem;
-}
+        .Profil > br + br + br {
+            display: block;
+            content: "";
+            margin-bottom: 1rem;
+        }
 
-.Profil > br + br + br::before {
-    content: " Тут будет Никнейм";
-    display: block;
-    text-align: center;
-    font-size: 1.2rem;
-    color: #ccc;
-    font-style: italic;
-    margin-bottom: 0.5rem;
-}
+        .Profil > br + br + br::before {
+            content: "Тут будет Никнейм";
+            display: block;
+            text-align: center;
+            font-size: 1.2rem;
+            color: #b3e0ff;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
 
-.Profil p {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 1.5rem;
-    border-radius: 15px;
-    border-left: 4px solid #ffd700;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin: 2rem 0;
-    backdrop-filter: blur(10px);
-}
+        .Profil p {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 1.5rem;
+            border-radius: 15px;
+            border-left: 4px solid #6a5af9;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin: 2rem 0;
+            backdrop-filter: blur(10px);
+        }
 
-.Profil p::before {
-    font-size: 1.2rem;
-}
+        .Profil p::before {
+            font-size: 1.2rem;
+        }
 
 /*main*/
 .glavn {
